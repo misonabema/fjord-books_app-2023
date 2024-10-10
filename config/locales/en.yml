@@ -31,3 +31,16 @@
 
 en:
   hello: "Hello world"
+  book:
+    books: Books
+    title: Title
+    memo: Memo
+    author: Author
+    picture: Picture
+    back_to_show: Show this book
+    show: Show this book
+    new: New book
+    edit_link: Edit this book
+    edit: Editing book
+    back: Back to books
+    delete: Destroy this book
