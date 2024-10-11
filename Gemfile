@@ -65,13 +65,13 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
-  gem 'erb_lint', require: false
+  gem 'erb_lint'
   gem 'i18n_generators'
   # 以下のPRがリリースされたら最新のrubocopを使うようにする
   # https://github.com/fjordllc/rubocop-fjord/pull/16
-  gem 'rubocop', '~> 1.45.1', require: false
-  gem 'rubocop-fjord', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop', '~> 1.45.1'
+  gem 'rubocop-fjord'
+  gem 'rubocop-rails'
 end
 
 group :test do
@@ -81,3 +81,4 @@ group :test do
 end
 
 gem 'carrierwave'
+gem 'kaminari'
